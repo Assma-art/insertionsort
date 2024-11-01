@@ -1,0 +1,10 @@
+ALGORITHM algorithm_name
+VAR
+ NH:float
+ NL:float
+
+BEGIN
+ Read (NH)
+ NL:= NH*0.5
+ Write(NL)
+END

@@ -1,0 +1,12 @@
+ALGORITHM algorithm_name
+VAR
+    N,I:INTEGER
+    R:STRING
+BEGIN
+ Read (N)
+ R:=""
+    FOR I FROM 1 TO N STEP 1  DO
+     R:= I+"sheep..."  
+    END_FOR
+    Write(r)
+END

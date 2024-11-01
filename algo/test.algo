@@ -1,0 +1,9 @@
+ALGORITHM algorithm_name
+VAR
+    circlearea, circleradius,pi: FLOAT;
+    pi:=3.14
+BEGIN
+    Read (circleradius);
+    circlearea:=circleradius * circleradius* pi;
+    Write (circlearea);
+END

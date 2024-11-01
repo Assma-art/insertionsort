@@ -1,0 +1,7 @@
+//Problem: get the enth even number
+//inputs: n: the position of the even number
+//outout: write the even number at that position
+//steps:
+//1-Read n
+//2-Calculate this equation: (n-1)*2 and store in result variable
+//3-Write the result

@@ -1,0 +1,12 @@
+ALGORITHM algorithm_name
+VAR
+   v1,v2 ,x1, x2, y1, y2: FLOAT
+BEGIN
+Read(x1)
+Read(x2)
+Read(y1)
+Read(y2)
+    v1:=x1*y2
+    v2:=x2*y1
+    write(v1=v2)
+END

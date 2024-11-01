@@ -1,0 +1,36 @@
+ALGORITHM checkpoint
+VAR
+    Str: STRING
+    NW, NV, L, i, S:INTEGER
+BEGIN
+    i:=0
+    NW:=0
+    NV:=0
+    L:=0
+    Read(Str)
+    WHILE (Str(i)<>".") DO
+        L:=L+1
+        /** We add another variable to count the number of spaces in the string
+        if there is no space at the end of the sentence, the number of words will be equal to the number of spaces +1 with counting the fullstop**/
+    IF (str(i)="") THEN
+        S:= S+1 
+        NW:= NW+1
+    END_IF
+    /**if the number of spaces < number of words than NW = NS-1**/
+    IF (str(i)in "aeuioAEUIO") THEN
+        NV:=NV+1
+    END_IF
+    i:=i+1
+
+     IF (S < NW) THEN
+    L:=L+1
+    END_IF
+     IF (S = NW) THEN
+    L:=L+1
+    NW:=NW+1
+    END_IF
+    END-WHILE
+    Write ("Number of Vowels", NV)
+    Write("Number of words",NW)
+    Write("Number of carachters", L)
+END

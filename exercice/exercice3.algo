@@ -1,0 +1,10 @@
+ALGORITHM algorithm_name
+VAR
+    distanceToPump , milePerGallon, fuelLeft, approximatedistance: float
+BEGIN
+ Read(distanceToPump)
+ Read(milePerGallon)
+ Read(fuelLeft)
+    approximatedistance:=milePerGallon*fuelleft
+    write(approximatedistance>=distanceToPump)
+END

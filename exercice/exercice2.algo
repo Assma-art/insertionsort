@@ -1,0 +1,12 @@
+ALGORITHM algorithm_name
+VAR
+    N,I,Sum:INTEGER
+    
+BEGIN
+ Read (N)
+ Sum:=0
+    FOR I FROM 1 TO N STEP 1  DO
+        Sum:= Sum+I
+    END_FOR
+    Write(S)
+END
